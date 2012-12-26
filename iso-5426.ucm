@@ -1,0 +1,908 @@
+<code_set_name> "ISO-5426"
+<mb_cur_min>                  1
+<mb_cur_max>                  2
+<uconv_class>                 "MBCS"
+
+CHARMAP
+<U0101> \xB0 |0
+#3/0ayn[ain]
+<U0623> \xB1 |0
+#3/1alif/hamzah[alefwithhamzaabove]
+#$chars{0xb2}=0x00e0;#'à';
+<U00E0> \xB2 |0
+#3/2leftlowsinglequotationmark
+#$chars{0xb3}=0x00e7;#'ç';
+<U00E7> \xB3 |0
+#3/2leftlowsinglequotationmark
+# $chars{0xb4}='è';
+<U00E8> \xB4 |0
+
+<U02B9> \xBD |0
+
+<U02BA> \xBE |0
+
+# $chars{0xb5}='é';
+<U00E9> \xB5 |0
+
+<U003C> \x97 |0
+#3/2leftlowsinglequotationmark
+<U003E> \x98 |0
+#3/2leftlowsinglequotationmark
+<U0153> \xFA |0
+ #oe
+<U0152> \xEA |0
+ #oe
+<U00B0> \x81\xD1 |0
+
+####
+## combined characters iso5426
+
+<U1EA2> \xC0\x41 |0
+ # capital a with hook above
+<U1EBA> \xC0\x45 |0
+ # capital e with hook above
+<U1EC8> \xC0\x49 |0
+ # capital i with hook above
+<U1ECE> \xC0\x4F |0
+ # capital o with hook above
+<U1EE6> \xC0\x55 |0
+ # capital u with hook above
+<U1EF6> \xC0\x59 |0
+ # capital y with hook above
+<U1EA3> \xC0\x61 |0
+ # small a with hook above
+<U1EBB> \xC0\x65 |0
+ # small e with hook above
+<U1EC9> \xC0\x69 |0
+ # small i with hook above
+<U1ECF> \xC0\x6F |0
+ # small o with hook above
+<U1EE7> \xC0\x75 |0
+ # small u with hook above
+<U1EF7> \xC0\x79 |0
+ # small y with hook above
+    
+        # 4/1 grave accent
+<U00C0> \xC1\x41 |0
+ # capital a with grave accent
+<U00C8> \xC1\x45 |0
+ # capital e with grave accent
+<U00CC> \xC1\x49 |0
+ # capital i with grave accent
+<U00D2> \xC1\x4F |0
+ # capital o with grave accent
+<U00D9> \xC1\x55 |0
+ # capital u with grave accent
+<U1E80> \xC1\x57 |0
+ # capital w with grave
+<U1EF2> \xC1\x59 |0
+ # capital y with grave
+<U00E0> \xC1\x61 |0
+ # small a with grave accent
+<U00E8> \xC1\x65 |0
+ # small e with grave accent
+<U00EC> \xC1\x69 |0
+ # small i with grave accent
+<U00F2> \xC1\x6F |0
+ # small o with grave accent
+<U00F9> \xC1\x75 |0
+ # small u with grave accent
+<U1E81> \xC1\x77 |0
+ # small w with grave
+<U1EF3> \xC1\x79 |0
+ # small y with grave
+        # 4/2 acute accent
+<U00C1> \xC2\x41 |0
+ # capital a with acute accent
+<U0106> \xC2\x43 |0
+ # capital c with acute accent
+<U00C9> \xC2\x45 |0
+ # capital e with acute accent
+<U01F4> \xC2\x47 |0
+ # capital g with acute
+<U00CD> \xC2\x49 |0
+ # capital i with acute accent
+<U1E30> \xC2\x4B |0
+ # capital k with acute
+<U0139> \xC2\x4C |0
+ # capital l with acute accent
+<U1E3E> \xC2\x4D |0
+ # capital m with acute
+<U0143> \xC2\x4E |0
+ # capital n with acute accent
+<U00D3> \xC2\x4F |0
+ # capital o with acute accent
+<U1E54> \xC2\x50 |0
+ # capital p with acute
+<U0154> \xC2\x52 |0
+ # capital r with acute accent
+<U015A> \xC2\x53 |0
+ # capital s with acute accent
+<U00DA> \xC2\x55 |0
+ # capital u with acute accent
+<U1E82> \xC2\x57 |0
+ # capital w with acute
+<U00DD> \xC2\x59 |0
+ # capital y with acute accent
+<U0179> \xC2\x5A |0
+ # capital z with acute accent
+<U00E1> \xC2\x61 |0
+ # small a with acute accent
+<U0107> \xC2\x63 |0
+ # small c with acute accent
+<U00E9> \xC2\x65 |0
+ # small e with acute accent
+<U01F5> \xC2\x67 |0
+ # small g with acute
+<U00ED> \xC2\x69 |0
+ # small i with acute accent
+<U1E31> \xC2\x6B |0
+ # small k with acute
+<U013A> \xC2\x6C |0
+ # small l with acute accent
+<U1E3F> \xC2\x6D |0
+ # small m with acute
+<U0144> \xC2\x6E |0
+ # small n with acute accent
+<U00F3> \xC2\x6F |0
+ # small o with acute accent
+<U1E55> \xC2\x70 |0
+ # small p with acute
+<U0155> \xC2\x72 |0
+ # small r with acute accent
+<U015B> \xC2\x73 |0
+ # small s with acute accent
+<U00FA> \xC2\x75 |0
+ # small u with acute accent
+<U1E83> \xC2\x77 |0
+ # small w with acute
+<U00FD> \xC2\x79 |0
+ # small y with acute accent
+<U017A> \xC2\x7A |0
+ # small z with acute accent
+<U01FC> \xC2\xE1 |0
+ # capital ae with acute
+<U01FD> \xC2\xF1 |0
+ # small ae with acute
+       # 4/3 circumflex accent
+<U00C2> \xC3\x41 |0
+ # capital a with circumflex accent
+<U0108> \xC3\x43 |0
+ # capital c with circumflex
+<U00CA> \xC3\x45 |0
+ # capital e with circumflex accent
+<U011C> \xC3\x47 |0
+ # capital g with circumflex
+<U0124> \xC3\x48 |0
+ # capital h with circumflex
+<U00CE> \xC3\x49 |0
+ # capital i with circumflex accent
+<U0134> \xC3\x4A |0
+ # capital j with circumflex
+<U00D4> \xC3\x4F |0
+ # capital o with circumflex accent
+<U015C> \xC3\x53 |0
+ # capital s with circumflex
+<U00DB> \xC3\x55 |0
+ # capital u with circumflex
+<U0174> \xC3\x57 |0
+ # capital w with circumflex
+<U0176> \xC3\x59 |0
+ # capital y with circumflex
+<U1E90> \xC3\x5A |0
+ # capital z with circumflex
+<U00E2> \xC3\x61 |0
+ # small a with circumflex accent
+<U0109> \xC3\x63 |0
+ # small c with circumflex
+<U00EA> \xC3\x65 |0
+ # small e with circumflex accent
+<U011D> \xC3\x67 |0
+ # small g with circumflex
+<U0125> \xC3\x68 |0
+ # small h with circumflex
+<U00EE> \xC3\x69 |0
+ # small i with circumflex accent
+<U0135> \xC3\x6A |0
+ # small j with circumflex
+<U00F1> \xC3\x6E |0
+ # small n with tilde
+<U00F4> \xC3\x6F |0
+ # small o with circumflex accent
+<U015D> \xC3\x73 |0
+ # small s with circumflex
+<U00FB> \xC3\x75 |0
+ # small u with circumflex
+<U0175> \xC3\x77 |0
+ # small w with circumflex
+<U0177> \xC3\x79 |0
+ # small y with circumflex
+<U1E91> \xC3\x7A |0
+ # small z with circumflex
+        # 4/4 tilde
+<U00C3> \xC4\x41 |0
+ # capital a with tilde
+<U1EBC> \xC4\x45 |0
+ # capital e with tilde
+<U0128> \xC4\x49 |0
+ # capital i with tilde
+<U00D1> \xC4\x4E |0
+ # capital n with tilde
+<U00D5> \xC4\x4F |0
+ # capital o with tilde
+<U0168> \xC4\x55 |0
+ # capital u with tilde
+<U1E7C> \xC4\x56 |0
+ # capital v with tilde
+<U1EF8> \xC4\x59 |0
+ # capital y with tilde
+<U00E3> \xC4\x61 |0
+ # small a with tilde
+<U1EBD> \xC4\x65 |0
+ # small e with tilde
+<U0129> \xC4\x69 |0
+ # small i with tilde
+<U00F1> \xC4\x6E |0
+ # small n with tilde
+<U00F5> \xC4\x6F |0
+ # small o with tilde
+<U0169> \xC4\x75 |0
+ # small u with tilde
+<U1E7D> \xC4\x76 |0
+ # small v with tilde
+<U1EF9> \xC4\x79 |0
+ # small y with tilde
+    # 4/5 macron
+<U0100> \xC5\x41 |0
+ # capital a with macron
+<U0112> \xC5\x45 |0
+ # capital e with macron
+<U1E20> \xC5\x47 |0
+ # capital g with macron
+<U012A> \xC5\x49 |0
+ # capital i with macron
+<U014C> \xC5\x4F |0
+ # capital o with macron
+<U016A> \xC5\x55 |0
+ # capital u with macron
+<U0101> \xC5\x61 |0
+ # small a with macron
+<U0113> \xC5\x65 |0
+ # small e with macron
+<U1E21> \xC5\x67 |0
+ # small g with macron
+<U012B> \xC5\x69 |0
+ # small i with macron
+<U014D> \xC5\x6F |0
+ # small o with macron
+<U016B> \xC5\x75 |0
+ # small u with macron
+<U0159> \xC5\x72 |0
+ # small r with macron
+<U01E2> \xC5\xE1 |0
+ # capital ae with macron
+<U01E3> \xC5\xF1 |0
+ # small ae with macron
+        # 4/6 breve
+<U0102> \xC6\x41 |0
+ # capital a with breve
+<U0114> \xC6\x45 |0
+ # capital e with breve
+<U011E> \xC6\x47 |0
+ # capital g with breve
+<U012C> \xC6\x49 |0
+ # capital i with breve
+<U014E> \xC6\x4F |0
+ # capital o with breve
+<U016C> \xC6\x55 |0
+ # capital u with breve
+<U0103> \xC6\x61 |0
+ # small a with breve
+<U0115> \xC6\x65 |0
+ # small e with breve
+<U011F> \xC6\x67 |0
+ # small g with breve
+<U012D> \xC6\x69 |0
+ # small i with breve
+<U014F> \xC6\x6F |0
+ # small o with breve
+<U016D> \xC6\x75 |0
+ # small u with breve
+        # 4/7 dot above
+<U01E1> \xC7\xB0 |0
+ # Ain with dot above
+<U1E02> \xC7\x42 |0
+ # capital b with dot above
+<U010A> \xC7\x43 |0
+ # capital c with dot above
+<U1E0A> \xC7\x44 |0
+ # capital d with dot above
+<U0116> \xC7\x45 |0
+ # capital e with dot above
+<U1E1E> \xC7\x46 |0
+ # capital f with dot above
+<U0120> \xC7\x47 |0
+ # capital g with dot above
+<U1E22> \xC7\x48 |0
+ # capital h with dot above
+<U0130> \xC7\x49 |0
+ # capital i with dot above
+<U1E40> \xC7\x4D |0
+ # capital m with dot above
+<U1E44> \xC7\x4E |0
+ # capital n with dot above
+<U1E56> \xC7\x50 |0
+ # capital p with dot above
+<U1E58> \xC7\x52 |0
+ # capital r with dot above
+<U1E60> \xC7\x53 |0
+ # capital s with dot above
+<U1E6A> \xC7\x54 |0
+ # capital t with dot above
+<U1E86> \xC7\x57 |0
+ # capital w with dot above
+<U1E8A> \xC7\x58 |0
+ # capital x with dot above
+<U1E8E> \xC7\x59 |0
+ # capital y with dot above
+<U017B> \xC7\x5A |0
+ # capital z with dot above
+<U0227> \xC7\x61 |0
+ # small b with dot above
+<U1E03> \xC7\x62 |0
+ # small b with dot above
+<U010B> \xC7\x63 |0
+ # small c with dot above
+<U1E0B> \xC7\x64 |0
+ # small d with dot above
+<U0117> \xC7\x65 |0
+ # small e with dot above
+<U1E1F> \xC7\x66 |0
+ # small f with dot above
+<U0121> \xC7\x67 |0
+ # small g with dot above
+<U1E23> \xC7\x68 |0
+ # small h with dot above
+<U1E41> \xC7\x6D |0
+ # small m with dot above
+<U1E45> \xC7\x6E |0
+ # small n with dot above
+<U1E57> \xC7\x70 |0
+ # small p with dot above
+<U1E59> \xC7\x72 |0
+ # small r with dot above
+<U1E61> \xC7\x73 |0
+ # small s with dot above
+<U1E6B> \xC7\x74 |0
+ # small t with dot above
+<U1E87> \xC7\x77 |0
+ # small w with dot above
+<U1E8B> \xC7\x78 |0
+ # small x with dot above
+<U1E8F> \xC7\x79 |0
+ # small y with dot above
+<U017C> \xC7\x7A |0
+ # small z with dot above
+        # 4/8 trema, diaresis
+<U00A8> \xC8\x20 |0
+ # diaeresis
+<U00C4> \xC8\x41 |0
+ # capital a with diaeresis
+<U00CB> \xC8\x45 |0
+ # capital e with diaeresis
+<U1E26> \xC8\x48 |0
+ # capital h with diaeresis
+<U00CF> \xC8\x49 |0
+ # capital i with diaeresis
+<U00D6> \xC8\x4F |0
+ # capital o with diaeresis
+<U00DC> \xC8\x55 |0
+ # capital u with diaeresis
+<U1E84> \xC8\x57 |0
+ # capital w with diaeresis
+<U1E8C> \xC8\x58 |0
+ # capital x with diaeresis
+<U0178> \xC8\x59 |0
+ # capital y with diaeresis
+<U00E4> \xC8\x61 |0
+ # small a with diaeresis
+<U00EB> \xC8\x65 |0
+ # small e with diaeresis
+<U1E27> \xC8\x68 |0
+ # small h with diaeresis
+<U00EF> \xC8\x69 |0
+ # small i with diaeresis
+<U00F6> \xC8\x6F |0
+ # small o with diaeresis
+<U1E97> \xC8\x74 |0
+ # small t with diaeresis
+<U00FC> \xC8\x75 |0
+ # small u with diaeresis
+<U1E85> \xC8\x77 |0
+ # small w with diaeresis
+<U1E8D> \xC8\x78 |0
+ # small x with diaeresis
+<U00FF> \xC8\x79 |0
+ # small y with diaeresis
+        # 4/9 umlaut
+<U00A8> \xC9\x20 |0
+ # [diaeresis]
+<U00E4> \xC9\x61 |0
+ # a with umlaut 
+<U00EB> \xC9\x65 |0
+ # e with umlaut
+<U00EF> \xC9\x69 |0
+ # i with umlaut
+<U00F6> \xC9\x6F |0
+ # o with umlaut
+<U00FC> \xC9\x75 |0
+ # u with umlaut
+        # 4/10 circle above 
+<U00C5> \xCA\x41 |0
+ # capital a with ring above
+<U016E> \xCA\xAD |0
+ # capital u with ring above
+<U00E5> \xCA\x61 |0
+ # small a with ring above
+<U016F> \xCA\x75 |0
+ # small u with ring above
+<U1E98> \xCA\x77 |0
+ # small w with ring above
+<U1E99> \xCA\x79 |0
+ # small y with ring above
+        # 4/11 high comma off centre
+        # 4/12 inverted high comma centred
+        # 4/13 double acute accent
+<U0150> \xCD\x4F |0
+ # capital o with double acute
+<U0170> \xCD\x55 |0
+ # capital u with double acute
+<U0151> \xCD\x6F |0
+ # small o with double acute
+<U0171> \xCD\x75 |0
+ # small u with double acute
+        # 4/14 horn
+<U01A0> \xCE\x54 |0
+ # latin capital letter o with horn
+<U01AF> \xCE\x55 |0
+ # latin capital letter u with horn
+<U01A1> \xCE\x74 |0
+ # latin small letter o with horn
+<U01B0> \xCE\x75 |0
+ # latin small letter u with horn
+        # 4/15 caron (hacek
+<U01CD> \xCF\x41 |0
+ # capital a with caron
+<U010C> \xCF\x43 |0
+ # capital c with caron
+<U010E> \xCF\x44 |0
+ # capital d with caron
+<U011A> \xCF\x45 |0
+ # capital e with caron
+<U01E6> \xCF\x47 |0
+ # capital g with caron
+<U01CF> \xCF\x49 |0
+ # capital i with caron
+<U01E8> \xCF\x4B |0
+ # capital k with caron
+<U013D> \xCF\x4C |0
+ # capital l with caron
+<U0147> \xCF\x4E |0
+ # capital n with caron
+<U01D1> \xCF\x4F |0
+ # capital o with caron
+<U0158> \xCF\x52 |0
+ # capital r with caron
+<U0160> \xCF\x53 |0
+ # capital s with caron
+<U0164> \xCF\x54 |0
+ # capital t with caron
+<U01D3> \xCF\x55 |0
+ # capital u with caron
+<U017D> \xCF\x5A |0
+ # capital z with caron
+<U01CE> \xCF\x61 |0
+ # small a with caron
+<U010D> \xCF\x63 |0
+ # small c with caron
+<U010F> \xCF\x64 |0
+ # small d with caron
+<U011B> \xCF\x65 |0
+ # small e with caron
+<U01E7> \xCF\x67 |0
+ # small g with caron
+<U01D0> \xCF\x69 |0
+ # small i with caron
+<U01F0> \xCF\x6A |0
+ # small j with caron
+<U01E9> \xCF\x6B |0
+ # small k with caron
+<U013E> \xCF\x6C |0
+ # small l with caron
+<U0148> \xCF\x6E |0
+ # small n with caron
+<U01D2> \xCF\x6F |0
+ # small o with caron
+<U0159> \xCF\x72 |0
+ # small r with caron
+<U0161> \xCF\x73 |0
+ # small s with caron
+<U0165> \xCF\x74 |0
+ # small t with caron
+<U01D4> \xCF\x75 |0
+ # small u with caron
+<U017E> \xCF\x7A |0
+ # small z with caron
+        # 5/0 cedilla
+<U00B8> \xD0\x20 |0
+ # cedilla
+<U00C7> \xD0\x43 |0
+ # capital c with cedilla
+<U1E10> \xD0\x44 |0
+ # capital d with cedilla
+<U0122> \xD0\x47 |0
+ # capital g with cedilla
+<U1E28> \xD0\x48 |0
+ # capital h with cedilla
+<U0136> \xD0\x4B |0
+ # capital k with cedilla
+<U013B> \xD0\x4C |0
+ # capital l with cedilla
+<U0145> \xD0\x4E |0
+ # capital n with cedilla
+<U0156> \xD0\x52 |0
+ # capital r with cedilla
+<U015E> \xD0\x53 |0
+ # capital s with cedilla
+<U0162> \xD0\x54 |0
+ # capital t with cedilla
+<U00E7> \xD0\x63 |0
+ # small c with cedilla
+<U1E11> \xD0\x64 |0
+ # small d with cedilla
+<U0119> \xD0\x65 |0
+ # small e with cedilla
+<U0123> \xD0\x67 |0
+ # small g with cedilla
+<U1E29> \xD0\x68 |0
+ # small h with cedilla
+<U0137> \xD0\x6B |0
+ # small k with cedilla
+<U013C> \xD0\x6C |0
+ # small l with cedilla
+<U0146> \xD0\x6E |0
+ # small n with cedilla
+<U0157> \xD0\x72 |0
+ # small r with cedilla
+<U015F> \xD0\x73 |0
+ # small s with cedilla
+<U0163> \xD0\x74 |0
+ # small t with cedilla
+        # 5/1 rude
+        # 5/2 hook to left
+        # 5/3 ogonek (hook to right
+<U02DB> \xD3\x20 |0
+ # ogonek
+<U0104> \xD3\x41 |0
+ # capital a with ogonek
+<U0118> \xD3\x45 |0
+ # capital e with ogonek
+<U012E> \xD3\x49 |0
+ # capital i with ogonek
+<U01EA> \xD3\x4F |0
+ # capital o with ogonek
+<U0172> \xD3\x55 |0
+ # capital u with ogonek
+<U0105> \xD3\x61 |0
+ # small a with ogonek
+<U0119> \xD3\x65 |0
+ # small e with ogonek
+<U012F> \xD3\x69 |0
+ # small i with ogonek
+<U01EB> \xD3\x6F |0
+ # small o with ogonek
+<U0173> \xD3\x75 |0
+ # small u with ogonek
+        # 5/4 circle below
+<U1E00> \xD4\x41 |0
+ # capital a with ring below
+<U1E01> \xD4\x61 |0
+ # small a with ring below
+        # 5/5 half circle below
+<U1E2A> \xF9\x48 |0
+ # capital h with breve below
+<U1E2B> \xF9\x68 |0
+ # small h with breve below
+        # 5/6 dot below
+<U1EA0> \xD6\x41 |0
+ # capital a with dot below
+<U1E04> \xD6\x42 |0
+ # capital b with dot below
+<U1E0C> \xD6\x44 |0
+ # capital d with dot below
+<U1EB8> \xD6\x45 |0
+ # capital e with dot below
+<U1E24> \xD6\x48 |0
+ # capital h with dot below
+<U1ECA> \xD6\x49 |0
+ # capital i with dot below
+<U1E32> \xD6\x4B |0
+ # capital k with dot below
+<U1E36> \xD6\x4C |0
+ # capital l with dot below
+<U1E42> \xD6\x4D |0
+ # capital m with dot below
+<U1E46> \xD6\x4E |0
+ # capital n with dot below
+<U1ECC> \xD6\x4F |0
+ # capital o with dot below
+<U1E5A> \xD6\x52 |0
+ # capital r with dot below
+<U1E62> \xD6\x53 |0
+ # capital s with dot below
+<U1E6C> \xD6\x54 |0
+ # capital t with dot below
+<U1EE4> \xD6\x55 |0
+ # capital u with dot below
+<U1E7E> \xD6\x56 |0
+ # capital v with dot below
+<U1E88> \xD6\x57 |0
+ # capital w with dot below
+<U1EF4> \xD6\x59 |0
+ # capital y with dot below
+<U1E92> \xD6\x5A |0
+ # capital z with dot below
+<U1EA1> \xD6\x61 |0
+ # small a with dot below
+<U1E05> \xD6\x62 |0
+ # small b with dot below
+<U1E0D> \xD6\x64 |0
+ # small d with dot below
+<U1EB9> \xD6\x65 |0
+ # small e with dot below
+<U1E25> \xD6\x68 |0
+ # small h with dot below
+<U1ECB> \xD6\x69 |0
+ # small i with dot below
+<U1E33> \xD6\x6B |0
+ # small k with dot below
+<U1E37> \xD6\x6C |0
+ # small l with dot below
+<U1E43> \xD6\x6D |0
+ # small m with dot below
+<U1E47> \xD6\x6E |0
+ # small n with dot below
+<U1ECD> \xD6\x6F |0
+ # small o with dot below
+<U1E5B> \xD6\x72 |0
+ # small r with dot below
+<U1E63> \xD6\x73 |0
+ # small s with dot below
+<U1E6D> \xD6\x74 |0
+ # small t with dot below
+<U1EE5> \xD6\x75 |0
+ # small u with dot below
+<U1E7F> \xD6\x76 |0
+ # small v with dot below
+<U1E89> \xD6\x77 |0
+ # small w with dot below
+<U1EF5> \xD6\x79 |0
+ # small y with dot below
+<U1E93> \xD6\x7A |0
+ # small z with dot below
+        # 5/7 double dot below
+<U1E72> \xD7\x55 |0
+ # capital u with diaeresis below
+<U1E73> \xD7\x75 |0
+ # small u with diaeresis below
+        # 5/8 underline
+<U005F> \xD8\x20 |0
+ # underline
+        # 5/9 double underline
+<U2017> \xD9\x20 |0
+ # double underline
+        # 5/10 small low vertical bar
+<U02CC> \xDA\x20 |0
+ # 
+        # 5/11 circumflex below
+        # 5/12 (this position shall not be used)
+        # 5/13 left half of ligature sign and of double tilde
+        # 5/14 right half of ligature sign
+        # 5/15 right half of double tilde
+#     map {printf "%x :%x\n",$_,$chars{$_};}keys %chars;
+#
+
+<U0000>  \x00 |0
+<U0001>  \x01 |0
+<U0002>  \x02 |0
+<U0003>  \x03 |0
+<U0004>  \x04 |0
+<U0005>  \x05 |0
+<U0006>  \x06 |0
+<U0007>  \x07 |0
+<U0008>  \x08 |0
+<U0009>  \x09 |0
+<U000A>  \x0A |0
+<U000B>  \x0B |0
+<U000C>  \x0C |0
+<U000D>  \x0D |0
+<U000E>  \x0E |0
+<U000F>  \x0F |0
+<U0010>  \x10 |0
+<U0011>  \x11 |0
+<U0012>  \x12 |0
+<U0013>  \x13 |0
+<U0014>  \x14 |0
+<U0015>  \x15 |0
+<U0016>  \x16 |0
+<U0017>  \x17 |0
+<U0018>  \x18 |0
+<U0019>  \x19 |0
+<U001A>  \x1A |0
+<U001B>  \x1B |0
+<U001C>  \x1C |0
+<U001D>  \x1D |0
+<U001E>  \x1E |0
+<U001F>  \x1F |0
+<U0020>  \x20 |0
+<U0021>  \x21 |0
+<U0022>  \x22 |0
+<U0023>  \x23 |0
+<U0024>  \x24 |0
+<U0025>  \x25 |0
+<U0026>  \x26 |0
+<U0027>  \x27 |0
+<U0028>  \x28 |0
+<U0029>  \x29 |0
+<U002A>  \x2A |0
+<U002B>  \x2B |0
+<U002C>  \x2C |0
+<U002D>  \x2D |0
+<U002E>  \x2E |0
+<U002F>  \x2F |0
+
+<U0030>  \x30 |0
+<U0031>  \x31 |0
+<U0032>  \x32 |0
+<U0033>  \x33 |0
+<U0034>  \x34 |0
+<U0035>  \x35 |0
+<U0036>  \x36 |0
+<U0037>  \x37 |0
+<U0038>  \x38 |0
+<U0039>  \x39 |0
+<U003A>  \x3A |0
+<U003B>  \x3B |0
+<U003C>  \x3C |0
+<U003D>  \x3D |0
+<U003E>  \x3E |0
+<U003F>  \x3F |0
+<U0040>  \x40 |0
+<U0041>  \x41 |0
+<U0042>  \x42 |0
+<U0043>  \x43 |0
+<U0044>  \x44 |0
+<U0045>  \x45 |0
+<U0046>  \x46 |0
+<U0047>  \x47 |0
+<U0048>  \x48 |0
+<U0049>  \x49 |0
+<U004A>  \x4A |0
+<U004B>  \x4B |0
+<U004C>  \x4C |0
+<U004D>  \x4D |0
+<U004E>  \x4E |0
+<U004F>  \x4F |0
+<U0050>  \x50 |0
+<U0051>  \x51 |0
+<U0052>  \x52 |0
+<U0053>  \x53 |0
+<U0054>  \x54 |0
+<U0055>  \x55 |0
+<U0056>  \x56 |0
+<U0057>  \x57 |0
+<U0058>  \x58 |0
+<U0059>  \x59 |0
+<U005A>  \x5A |0
+<U005B>  \x5B |0
+<U005C>  \x5C |0
+<U005D>  \x5D |0
+<U005E>  \x5E |0
+<U005F>  \x5F |0
+<U0060>  \x60 |0
+
+<U0061>  \x61 |0
+<U0062>  \x62 |0
+<U0063>  \x63 |0
+<U0064>  \x64 |0
+<U0065>  \x65 |0
+<U0066>  \x66 |0
+<U0067>  \x67 |0
+<U0068>  \x68 |0
+<U0069>  \x69 |0
+<U006A>  \x6A |0
+<U006B>  \x6B |0
+<U006C>  \x6C |0
+<U006D>  \x6D |0
+<U006E>  \x6E |0
+<U006F>  \x6F |0
+<U0070>  \x70 |0
+<U0071>  \x71 |0
+<U0072>  \x72 |0
+<U0073>  \x73 |0
+<U0074>  \x74 |0
+<U0075>  \x75 |0
+<U0076>  \x76 |0
+<U0077>  \x77 |0
+<U0078>  \x78 |0
+<U0079>  \x79 |0
+<U007A>  \x7A |0
+
+<U007B>  \x7B |0
+<U007C>  \x7C |0
+<U007D>  \x7D |0
+<U007E>  \x7E |0
+<U007F>  \x7F |0
+<U0080>  \x80 |0
+<U0081>  \x81 |0
+<U0082>  \x82 |0
+<U0083>  \x83 |0
+<U0084>  \x84 |0
+<U0085>  \x85 |0
+<U0086>  \x86 |0
+<U0087>  \x87 |0
+<U0088>  \x88 |0
+<U0089>  \x89 |0
+<U008A>  \x8A |0
+<U008B>  \x8B |0
+<U008C>  \x8C |0
+<U008D>  \x8D |0
+<U008E>  \x8E |0
+<U008F>  \x8F |0
+<U0090>  \x90 |0
+<U0091>  \x91 |0
+<U0092>  \x92 |0
+<U0093>  \x93 |0
+<U0094>  \x94 |0
+<U0095>  \x95 |0
+<U0096>  \x96 |0
+<U0097>  \x97 |0
+<U0098>  \x98 |0
+<U0099>  \x99 |0
+<U009A>  \x9A |0
+<U009B>  \x9B |0
+<U009C>  \x9C |0
+<U009D>  \x9D |0
+<U009E>  \x9E |0
+<U009F>  \x9F |0
+<U00A0>  \xA0 |0
+<U00A1>  \xA1 |0
+<U00A2>  \xA2 |0
+<U00A3>  \xA3 |0
+<U00A5>  \xA5 |0
+<U00A7>  \xA7 |0
+<U00A9>  \xA9 |0
+<U00AA>  \xAA |0
+<U00AB>  \xAB |0
+<U00AC>  \xAC |0
+<U00AD>  \xAD |0
+<U00AE>  \xAE |0
+<U00AF>  \xAF |0
+<U00B0>  \xB0 |0
+<U00B1>  \xB1 |0
+<U00B2>  \xB2 |0
+<U00B3>  \xB3 |0
+<U00B5>  \xB5 |0
+<U00B6>  \xB6 |0
+<U00B7>  \xB7 |0
+<U00B9>  \xB9 |0
+<U00BA>  \xBA |0
+<U00BB>  \xBB |0
+<U00BF>  \xBF |0
+
+# Combined chars: 
+# <U00C0>  \xC0 |0
+# ... 
+# <U00DF>  \xDF |0
+
+END CHARMAP

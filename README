@@ -1,0 +1,4 @@
+rm -rf ^(README|*ucm|t)
+enc2xs -M ISO5426 iso-5426.ucm
+perl Makefile.PL
+make

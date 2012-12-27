@@ -10,3 +10,4 @@ ISO5426_t.o
 Makefile
 blib/
 pm_to_blib
+*.swp

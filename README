@@ -1,0 +1,34 @@
+Encode::ISO5426 version 0.1
+========
+
+NAME
+       Encode::ISO5426 - a weird bibliographic encoding used in ILS
+
+SYNOPSIS
+
+       use Encode::ISO5426;
+
+ABSTRACT
+
+yeah! keep it abstract! Librarians made our daily hell.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires perl version 5.7.3 or later.
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2002 Marc Chantreux <mc@unistra.fr>
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
+

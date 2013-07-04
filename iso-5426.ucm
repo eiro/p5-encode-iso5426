@@ -4,33 +4,18 @@
 <uconv_class>                 "MBCS"
 
 CHARMAP
-<U0101> \xB0 |0
-#3/0ayn[ain]
-<U0623> \xB1 |0
-#3/1alif/hamzah[alefwithhamzaabove]
-#$chars{0xb2}=0x00e0;#'à';
+
+<U0623> \xB1 |0 #3/1alif/hamzah[alefwithhamzaabove]
 <U00E0> \xB2 |0
-#3/2leftlowsinglequotationmark
-#$chars{0xb3}=0x00e7;#'ç';
 <U00E7> \xB3 |0
-#3/2leftlowsinglequotationmark
-# $chars{0xb4}='è';
 <U00E8> \xB4 |0
-
 <U02B9> \xBD |0
-
 <U02BA> \xBE |0
-
-# $chars{0xb5}='é';
 <U00E9> \xB5 |0
-
 <U003C> \x97 |0
-#3/2leftlowsinglequotationmark
 <U003E> \x98 |0
-#3/2leftlowsinglequotationmark
 <U0153> \xFA |0 #oe
 <U0152> \xEA |0 #oe
-<U00B0> \x81\xD1 |0
 
 ####
 ## combined characters iso5426

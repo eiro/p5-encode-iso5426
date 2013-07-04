@@ -12,3 +12,4 @@ blib/
 pm_to_blib
 *.swp
 Encode-ISO5426-*
+MYMETA.yml

@@ -1,4 +1,4 @@
-use Modern::Perl;
+# use Modern::Perl;
 use Test::More;
 use Encode;
 use Encode::ISO5426;
